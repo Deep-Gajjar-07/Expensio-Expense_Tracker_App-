@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/icon_house"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/bottom_add"
+        android:icon="@drawable/icon_plus"
+        android:title="Add Transactions" />
+
+    <item
+        android:id="@+id/bottom_list"
+        android:icon="@drawable/icon_list"
+        android:title="Transaction List" />
+
+</menu>
