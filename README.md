@@ -42,7 +42,7 @@ It helps users track their daily income and expenses, visualize spending with a 
 
 ## 💡 Screenshots
 
-<img width="462" height="600" alt="img1" src="https://github.com/user-attachments/assets/a7d549f9-c63a-4254-bef1-8e46b8366db4" />
-<img width="473" height="600" alt="img2" src="https://github.com/user-attachments/assets/a6f38c0e-2082-44eb-b2ec-bffe0b504333" />
-<img width="466" height="600" alt="img3" src="https://github.com/user-attachments/assets/c357cfaa-efc5-441a-9bb0-d8a58dcfe926" />
+<img width="200" height="600" alt="img1" src="https://github.com/user-attachments/assets/a7d549f9-c63a-4254-bef1-8e46b8366db4" />
+<img width="200" height="600" alt="img2" src="https://github.com/user-attachments/assets/a6f38c0e-2082-44eb-b2ec-bffe0b504333" />
+<img width="200" height="600" alt="img3" src="https://github.com/user-attachments/assets/c357cfaa-efc5-441a-9bb0-d8a58dcfe926" />
 
