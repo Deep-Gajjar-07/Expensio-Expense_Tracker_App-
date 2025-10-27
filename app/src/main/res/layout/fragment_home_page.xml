@@ -13,9 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:padding="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="30dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
         android:text="Expensio"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -39,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:elevation="5dp"
-                android:backgroundTint="@color/light_grey"
+                android:backgroundTint="@color/secondary"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
@@ -163,13 +166,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:elevation="5dp"
-                android:backgroundTint="@color/bottom_color"
+                android:backgroundTint="@color/piechart"
                 app:cardCornerRadius="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/bottom_color"
+                    android:background="@color/piechart"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -182,7 +185,7 @@
                         android:paddingTop="10dp"
                         android:text="Your Expenses Graph : "
                         android:textColor="@color/white"
-                        android:textSize="17sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <com.google.android.material.divider.MaterialDivider
@@ -211,7 +214,7 @@
                 android:fontFamily="sans-serif-condensed"
                 android:padding="10dp"
                 android:text="Last Transaction : "
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <com.google.android.material.divider.MaterialDivider
@@ -219,7 +222,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="30dp"
-                app:dividerColor="@color/white" />
+                app:dividerColor="@color/black" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/transition_list"

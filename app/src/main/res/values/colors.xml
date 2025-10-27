@@ -2,10 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="secondary">#F6E9CA</color>
-    <color name="primary">#13312A</color>
-    <color name="bottom_color">#155446</color>
+    <color name="secondary">#BBFB4C</color>
+    <color name="primary">#F0F5F4</color>
+    <color name="bottom_color">#5285EB</color>
+    <color name="piechart">#A5ABAF</color>
     <color name="red">#FF3131</color>
+    <color name="light_black">#181818</color>
     <color name="light_blue">#9670FF</color>
     <color name="light_grey">#FFFFFF</color>
 </resources>

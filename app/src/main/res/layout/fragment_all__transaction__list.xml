@@ -19,14 +19,14 @@
         android:fontFamily="sans-serif-condensed"
         android:text="All Transactions : "
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <com.google.android.material.divider.MaterialDivider
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
-        app:dividerColor="@color/white" />
+        app:dividerColor="@color/black" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/allTransactions"

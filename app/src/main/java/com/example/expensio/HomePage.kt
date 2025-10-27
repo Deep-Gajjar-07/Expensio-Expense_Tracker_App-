@@ -69,7 +69,7 @@ class HomePage : Fragment() {
         piechart.setDrawEntryLabels(false)
         piechart.setCenterTextColor(Color.WHITE)
         piechart.setCenterTextSize(16f)
-        piechart.setHoleColor(Color.parseColor("#155446"))
+        piechart.setHoleColor(Color.parseColor("#A5ABAF"))
         piechart.description.isEnabled = false
 
         piechart.setOnChartValueSelectedListener(object : OnChartValueSelectedListener {
