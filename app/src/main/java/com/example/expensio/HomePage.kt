@@ -57,20 +57,29 @@ class HomePage : Fragment() {
         }
 
         val dataset = PieDataSet(entries, "")
-        dataset.colors = listOf(Color.RED, Color.BLUE, Color.LTGRAY, Color.GRAY, Color.MAGENTA)
+        dataset.colors = listOf(Color.RED, Color.BLUE, Color.DKGRAY, Color.BLACK, Color.MAGENTA)
         dataset.valueTextColor = Color.WHITE
         dataset.valueTextSize = 16f
         dataset.selectionShift = 8f
+
 
         piechart.data = PieData(dataset)
         piechart.centerText = "Expense Graph"
         piechart.animateY(1000)
         piechart.invalidate()
         piechart.setDrawEntryLabels(false)
-        piechart.setCenterTextColor(Color.WHITE)
+        piechart.setCenterTextColor(Color.BLACK)
         piechart.setCenterTextSize(16f)
-        piechart.setHoleColor(Color.parseColor("#A5ABAF"))
+        piechart.setHoleColor(Color.parseColor("#F0F5F4"))
         piechart.description.isEnabled = false
+
+        val legend = piechart.legend
+        legend.textColor = Color.BLACK
+        legend.textSize = 17f
+        legend.setDrawInside(false)
+        legend.orientation = Legend.LegendOrientation.VERTICAL
+        legend.verticalAlignment = Legend.LegendVerticalAlignment.CENTER
+        legend.horizontalAlignment = Legend.LegendHorizontalAlignment.LEFT
 
         piechart.setOnChartValueSelectedListener(object : OnChartValueSelectedListener {
             override fun onValueSelected(e: Entry?, h: Highlight?) {
@@ -84,14 +93,6 @@ class HomePage : Fragment() {
             }
 
         })
-
-        val legend = piechart.legend
-        legend.textColor = Color.WHITE
-        legend.textSize = 15f
-        legend.setDrawInside(false)
-        legend.orientation = Legend.LegendOrientation.VERTICAL
-        legend.verticalAlignment = Legend.LegendVerticalAlignment.CENTER
-        legend.horizontalAlignment = Legend.LegendHorizontalAlignment.LEFT
 
         val (income, expense, balance) = dbHelper.calculateTotals()
 

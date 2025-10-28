@@ -166,13 +166,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:elevation="5dp"
-                android:backgroundTint="@color/piechart"
+                android:backgroundTint="@color/light_grey"
                 app:cardCornerRadius="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/piechart"
+                    android:background="@color/light_grey"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -184,7 +184,7 @@
                         android:paddingStart="20dp"
                         android:paddingTop="10dp"
                         android:text="Your Expenses Graph : "
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -194,7 +194,7 @@
                         android:layout_marginStart="30dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="50dp"
-                        app:dividerColor="@color/white" />
+                        app:dividerColor="@color/black" />
 
                     <com.github.mikephil.charting.charts.PieChart
                         android:id="@+id/pieChart"
